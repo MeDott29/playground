@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>OpenAI Playground</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>OpenAI Playground</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="input-section">
+        <h2>Input</h2>
+        <form>
+          <textarea id="input-text" name="input-text" placeholder="Enter text here"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section class="output-section">
+        <h2>Output</h2>
+        <div id="output-text"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 OpenAI</p>
+    </footer>
+  </body>
+</html>
